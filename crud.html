@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=7, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/notiflix.css') }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+        }
+
+
+        nav {
+            width: 100%;
+            height: 80px;
+        }
+
+        nav div a {
+            font-weight: bold;
+            font-size: 40px;
+            color: white;
+            padding-left: 50%;
+            text-decoration: none;
+        }
+
+        nav div a:hover {
+            color: white;
+        }
+
+        table {
+            font-weight: bold;
+            display: table;
+            position: relative;
+            z-index: 2;
+        }
+
+        .modal-body input {
+            text-align: center;
+        }
+
+        .cud {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+        }
+
+        .cud div {
+            width: 100%;
+
+        }
+
+        .scrollToTopBtn {
+            background-color: black;
+            border: none;
+            border-radius: 50%;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            line-height: 48px;
+            width: 58px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 100;
+            opacity: 0;
+            transform: translateY(100px);
+            transition: all .5s ease
+        }
+
+        .showBtn {
+            opacity: 1;
+            transform: translateY(0)
+        }
+
+        .view {
+
+            position: relative;
+        }
+
+        .letableau {
+            display: block;
+            position: relative;
+            z-index: 5;
+        }
+        .retour{
+            position: absolute;
+            left: 0;
+            top: 85px;
+            
+        }
+        .retour a{
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-info">
+        <div class="container-fluid">
+            <a href="">( CRUD )</a><br>
+        </div>
+    </nav><br>
+
+    <!--ADD-->
+        <button class="btn btn-info retour"><a href="/">RETOUR A L'ACCUEIL</a></button>
+
+    <div class="cud">
+
+        <div id="addpoint">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form method="POST" action="/insert">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Ajouter Champ</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label>Contenu</label>
+                                <input type="content" class="form-control" name="content" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Latitude</label>
+                                <input type="text" class="form-control" name="lat" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Longitude</label>
+                                <input type="text" class="form-control" name="lng" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="submit" class="btn btn-success" data-type="success" value="Ajouter">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--ADD RANDOMLY-->
+        
+        <!-- <div id="addpointrandomly">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form method="POST" action="/insertbyrandom">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Ajouter point au hasard</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label>Nombre de points à créer</label>
+                                <input type="number" class="form-control" name="number" required>
+                            </div>
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <input type="submit" id="ajoutpoint" class="btn btn-success" value="Ajouter au hasard">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> -->
+   
+
+        <!--UPDATE-->
+        <div id="updatepoint" class="">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form method="POST" action=/update>
+                        <div class="modal-header">
+                            <h4 class="modal-title">Modifier Champ</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label>ID</label>
+                                <input type="number" name="id" id="idtoup" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Contenu</label>
+                                <input type="content" id="contenttoup" name="content" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Latitude</label>
+                                <input type="text" class="form-control" id="lattoup" name="lat" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Longitude</label>
+                                <input type="text" name="lng" id="lngtoup" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="submit" class="btn btn-info" value="Modifier">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+
+
+
+
+        <!--DELETE-->
+
+
+        <div id="deletepoint" class="">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form method="POST" action="/delpoint">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Supprimer Champ</h4>
+                        </div>
+                        <div class="modal-body">
+                            <label>ID</label><br>
+                            <input type="number" name="id" id="idtodel">
+                            <p>Êtes vous sûr de vouloir supprimer ce point?</p>
+                            <p class="text-danger"><small>Attention, une fois validée,<br> Cette action ne peut plus
+                                    être annulée.</small></p>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="submit" class="btn btn-danger" value="Supprimer">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="btnafficherliste" class="btn btn-primary btn-lg btn-block">Afficher/Cacher la liste des champs</button>
+
+    <div class="view">
+        <div>
+            <h3>Nombre de points: {{n}}</h3>
+        </div>
+        <div class="letableau">
+            <table class="table table-hover  table-striped sticky-top">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Content</th>
+                        <th>Latitude</th>
+                        <th>Longitude</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="">
+
+                    {% for row in rows %}
+
+                    <tr>
+                        <td>{{row["id"]}}</td>
+                        <td>{{row["content"]}}</td>
+                        <td>{{row["lat"]}}</td>
+                        <td>{{row["lng"]}}</td>
+                        <td><a href="#"><button class="modifier btn btn-info"
+                                    aria-label='{{row["id"]}}'>MODIFIER</button></a> <a href="#"><button
+                                    class="supprimer btn btn-danger" aria-label='{{row["id"]}}'>SUPPRIMER</button></a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table><br>
+        </div>
+        <div class="togoup">
+            <button class="scrollToTopBtn">☝️</button>
+        </div>
+    </div>
+
+    <footer></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        var delBtns = [...document.querySelectorAll(".supprimer")];
+        delBtns.forEach(function (btn) {
+            btn.onclick = function () {
+                var modal = btn.getAttribute('aria-label');
+                document.querySelector('#idtodel').value = modal;
+
+            }
+        });
+
+        var upBtns = [...document.querySelectorAll(".modifier")];
+        upBtns.forEach(function (btn) {
+            btn.onclick = function () {
+                var modal = btn.getAttribute('aria-label');
+                document.querySelector('#idtoup').value = modal;
+            }
+        });
+
+        ///////////////////////////////////////////////////////
+
+
+        /* var btnafficherliste = document.querySelector("#btnafficherliste");
+         btncacherliste.style.display = "none";
+         document.querySelector(".view").style.display = "none";
+         btnafficherliste.addEventListener("click", function () {
+             this.innerHTML = "Cacher la liste des points";
+             document.querySelector(".view").style.display = "block";
+             
+             })
+         })*/
+        $(".view").show();
+
+        $("#btnafficherliste").click(function () {
+            $(".view").toggle();
+        });
+
+
+        //////////////////////////////////////////////////////
+
+        // We select the element we want to target
+        var target = document.querySelector("footer");
+
+        var scrollToTopBtn = document.querySelector(".scrollToTopBtn")
+        var rootElement = document.documentElement
+
+        // Next we want to create a function that will be called when that element is intersected
+        function callback(entries, observer) {
+            // The callback will return an array of entries, even if you are only observing a single item
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Show button
+                    scrollToTopBtn.classList.add("showBtn")
+                } else {
+                    // Hide button
+                    scrollToTopBtn.classList.remove("showBtn")
+                }
+            });
+        }
+
+        function scrollToTop() {
+            rootElement.scrollTo({
+                top: 20,
+                behavior: "smooth"
+            });
+        }
+        scrollToTopBtn.addEventListener("click", scrollToTop);
+
+        // Next we instantiate the observer with the function we created above. This takes an optional configuration
+        // object that we will use in the other examples.
+
+        let observer = new IntersectionObserver(callback);
+        // Finally start observing the target element
+        observer.observe(target);
+
+
+
+    </script>
+
+    <script type="text/javascript">
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const param = urlParams.get('text')
+        if(param=='insert_ok')
+        alert("Ajout du point réussi");
+        else if(param=='insert_no')
+        alert("Echec, le point que vous voulez ajouter existe déja");
+        else if(param=='del_ok')
+        alert("Le point a été supprimé avec succés");
+        else if(param=='del_no')
+        alert("Echec, le point que vous voulez supprimer n'existe pas");
+        else if(param=='up_ok')
+        alert("Le point a été modifié avec succés");
+        else if(param=='up_no')
+        alert("Echec, le point que vous voulez modifier n'existe pas");
+    </script>
+
+</body>
+
+</html>

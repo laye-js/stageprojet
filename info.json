@@ -1,0 +1,934 @@
+[
+    {
+        "humidite": "46",
+        "Temperature": "13"
+    },
+    {
+        "humidite": "39",
+        "Temperature": "5"
+    },
+    {
+        "humidite": "76",
+        "Temperature": "-6"
+    },
+    {
+        "humidite": "47",
+        "Temperature": "-1"
+    },
+    {
+        "humidite": "42",
+        "Temperature": "-10"
+    },
+    {
+        "humidite": "88",
+        "Temperature": "12"
+    },
+    {
+        "humidite": "43",
+        "Temperature": "-9"
+    },
+    {
+        "humidite": "9",
+        "Temperature": "6"
+    },
+    {
+        "humidite": "66",
+        "Temperature": "20"
+    },
+    {
+        "humidite": "157",
+        "Temperature": "43"
+    },
+    {
+        "humidite": "65",
+        "Temperature": "64"
+    },
+    {
+        "humidite": "101",
+        "Temperature": "-19"
+    },
+    {
+        "humidite": "136",
+        "Temperature": "-13"
+    },
+    {
+        "humidite": "152",
+        "Temperature": "-10"
+    },
+    {
+        "humidite": "32",
+        "Temperature": "19"
+    },
+    {
+        "humidite": "70",
+        "Temperature": "1"
+    },
+    {
+        "humidite": "196",
+        "Temperature": "44"
+    },
+    {
+        "humidite": "115",
+        "Temperature": "54"
+    },
+    {
+        "humidite": "22",
+        "Temperature": "26"
+    },
+    {
+        "humidite": "46",
+        "Temperature": "70"
+    },
+    {
+        "humidite": "182",
+        "Temperature": "-2"
+    },
+    {
+        "humidite": "17",
+        "Temperature": "36"
+    },
+    {
+        "humidite": "178",
+        "Temperature": "54"
+    },
+    {
+        "humidite": "13",
+        "Temperature": "37"
+    },
+    {
+        "humidite": "38",
+        "Temperature": "5"
+    },
+    {
+        "humidite": "144",
+        "Temperature": "54"
+    },
+    {
+        "humidite": "51",
+        "Temperature": "20"
+    },
+    {
+        "humidite": "94",
+        "Temperature": "-13"
+    },
+    {
+        "humidite": "44",
+        "Temperature": "-19"
+    },
+    {
+        "humidite": "128",
+        "Temperature": "-6"
+    },
+    {
+        "humidite": "172",
+        "Temperature": "53"
+    },
+    {
+        "humidite": "22",
+        "Temperature": "65"
+    },
+    {
+        "humidite": "134",
+        "Temperature": "49"
+    },
+    {
+        "humidite": "53",
+        "Temperature": "46"
+    },
+    {
+        "humidite": "192",
+        "Temperature": "29"
+    },
+    {
+        "humidite": "155",
+        "Temperature": "12"
+    },
+    {
+        "humidite": "171",
+        "Temperature": "35"
+    },
+    {
+        "humidite": "198",
+        "Temperature": "75"
+    },
+    {
+        "humidite": "125",
+        "Temperature": "19"
+    },
+    {
+        "humidite": "173",
+        "Temperature": "33"
+    },
+    {
+        "humidite": "94",
+        "Temperature": "48"
+    },
+    {
+        "humidite": "27",
+        "Temperature": "14"
+    },
+    {
+        "humidite": "50",
+        "Temperature": "5"
+    },
+    {
+        "humidite": "185",
+        "Temperature": "58"
+    },
+    {
+        "humidite": "100",
+        "Temperature": "0"
+    },
+    {
+        "humidite": "34",
+        "Temperature": "-12"
+    },
+    {
+        "humidite": "154",
+        "Temperature": "53"
+    },
+    {
+        "humidite": "27",
+        "Temperature": "38"
+    },
+    {
+        "humidite": "14",
+        "Temperature": "79"
+    },
+    {
+        "humidite": "112",
+        "Temperature": "47"
+    },
+    {
+        "humidite": "32",
+        "Temperature": "71"
+    },
+    {
+        "humidite": "63",
+        "Temperature": "6"
+    },
+    {
+        "humidite": "107",
+        "Temperature": "43"
+    },
+    {
+        "humidite": "168",
+        "Temperature": "40"
+    },
+    {
+        "humidite": "53",
+        "Temperature": "2"
+    },
+    {
+        "humidite": "101",
+        "Temperature": "-1"
+    },
+    {
+        "humidite": "79",
+        "Temperature": "68"
+    },
+    {
+        "humidite": "54",
+        "Temperature": "70"
+    },
+    {
+        "humidite": "92",
+        "Temperature": "6"
+    },
+    {
+        "humidite": "197",
+        "Temperature": "7"
+    },
+    {
+        "humidite": "110",
+        "Temperature": "-11"
+    },
+    {
+        "humidite": "135",
+        "Temperature": "71"
+    },
+    {
+        "humidite": "14",
+        "Temperature": "11"
+    },
+    {
+        "humidite": "168",
+        "Temperature": "73"
+    },
+    {
+        "humidite": "129",
+        "Temperature": "5"
+    },
+    {
+        "humidite": "64",
+        "Temperature": "24"
+    },
+    {
+        "humidite": "69",
+        "Temperature": "5"
+    },
+    {
+        "humidite": "38",
+        "Temperature": "28"
+    },
+    {
+        "humidite": "96",
+        "Temperature": "32"
+    },
+    {
+        "humidite": "88",
+        "Temperature": "44"
+    },
+    {
+        "humidite": "129",
+        "Temperature": "40"
+    },
+    {
+        "humidite": "98",
+        "Temperature": "54"
+    },
+    {
+        "humidite": "155",
+        "Temperature": "28"
+    },
+    {
+        "humidite": "168",
+        "Temperature": "45"
+    },
+    {
+        "humidite": "23",
+        "Temperature": "-16"
+    },
+    {
+        "humidite": "13",
+        "Temperature": "51"
+    },
+    {
+        "humidite": "128",
+        "Temperature": "35"
+    },
+    {
+        "humidite": "122",
+        "Temperature": "41"
+    },
+    {
+        "humidite": "21",
+        "Temperature": "51"
+    },
+    {
+        "humidite": "106",
+        "Temperature": "34"
+    },
+    {
+        "humidite": "135",
+        "Temperature": "47"
+    },
+    {
+        "humidite": "178",
+        "Temperature": "71"
+    },
+    {
+        "humidite": "140",
+        "Temperature": "-5"
+    },
+    {
+        "humidite": "38",
+        "Temperature": "76"
+    },
+    {
+        "humidite": "104",
+        "Temperature": "65"
+    },
+    {
+        "humidite": "147",
+        "Temperature": "14"
+    },
+    {
+        "humidite": "137",
+        "Temperature": "20"
+    },
+    {
+        "humidite": "67",
+        "Temperature": "76"
+    },
+    {
+        "humidite": "80",
+        "Temperature": "59"
+    },
+    {
+        "humidite": "190",
+        "Temperature": "-16"
+    },
+    {
+        "humidite": "126",
+        "Temperature": "32"
+    },
+    {
+        "humidite": "73",
+        "Temperature": "66"
+    },
+    {
+        "humidite": "132",
+        "Temperature": "34"
+    },
+    {
+        "humidite": "121",
+        "Temperature": "35"
+    },
+    {
+        "humidite": "165",
+        "Temperature": "54"
+    },
+    {
+        "humidite": "54",
+        "Temperature": "8"
+    },
+    {
+        "humidite": "78",
+        "Temperature": "27"
+    },
+    {
+        "humidite": "128",
+        "Temperature": "59"
+    },
+    {
+        "humidite": "29",
+        "Temperature": "63"
+    },
+    {
+        "humidite": "71",
+        "Temperature": "48"
+    },
+    {
+        "humidite": "181",
+        "Temperature": "15"
+    },
+    {
+        "humidite": "87",
+        "Temperature": "-14"
+    },
+    {
+        "humidite": "100",
+        "Temperature": "32"
+    },
+    {
+        "humidite": "64",
+        "Temperature": "62"
+    },
+    {
+        "humidite": "60",
+        "Temperature": "4"
+    },
+    {
+        "humidite": "96",
+        "Temperature": "20"
+    },
+    {
+        "humidite": "125",
+        "Temperature": "18"
+    },
+    {
+        "humidite": "25",
+        "Temperature": "30"
+    },
+    {
+        "humidite": "77",
+        "Temperature": "-19"
+    },
+    {
+        "humidite": "171",
+        "Temperature": "48"
+    },
+    {
+        "humidite": "113",
+        "Temperature": "62"
+    },
+    {
+        "humidite": "27",
+        "Temperature": "54"
+    },
+    {
+        "humidite": "42",
+        "Temperature": "74"
+    },
+    {
+        "humidite": "195",
+        "Temperature": "39"
+    },
+    {
+        "humidite": "129",
+        "Temperature": "80"
+    },
+    {
+        "humidite": "33",
+        "Temperature": "31"
+    },
+    {
+        "humidite": "65",
+        "Temperature": "6"
+    },
+    {
+        "humidite": "12",
+        "Temperature": "-10"
+    },
+    {
+        "humidite": "92",
+        "Temperature": "-19"
+    },
+    {
+        "humidite": "181",
+        "Temperature": "-13"
+    },
+    {
+        "humidite": "107",
+        "Temperature": "4"
+    },
+    {
+        "humidite": "127",
+        "Temperature": "34"
+    },
+    {
+        "humidite": "186",
+        "Temperature": "44"
+    },
+    {
+        "humidite": "71",
+        "Temperature": "65"
+    },
+    {
+        "humidite": "125",
+        "Temperature": "53"
+    },
+    {
+        "humidite": "13",
+        "Temperature": "18"
+    },
+    {
+        "humidite": "137",
+        "Temperature": "3"
+    },
+    {
+        "humidite": "91",
+        "Temperature": "50"
+    },
+    {
+        "humidite": "109",
+        "Temperature": "23"
+    },
+    {
+        "humidite": "106",
+        "Temperature": "20"
+    },
+    {
+        "humidite": "135",
+        "Temperature": "9"
+    },
+    {
+        "humidite": "98",
+        "Temperature": "38"
+    },
+    {
+        "humidite": "66",
+        "Temperature": "-9"
+    },
+    {
+        "humidite": "118",
+        "Temperature": "-13"
+    },
+    {
+        "humidite": "87",
+        "Temperature": "70"
+    },
+    {
+        "humidite": "171",
+        "Temperature": "59"
+    },
+    {
+        "humidite": "15",
+        "Temperature": "1"
+    },
+    {
+        "humidite": "12",
+        "Temperature": "21"
+    },
+    {
+        "humidite": "61",
+        "Temperature": "7"
+    },
+    {
+        "humidite": "41",
+        "Temperature": "75"
+    },
+    {
+        "humidite": "129",
+        "Temperature": "-5"
+    },
+    {
+        "humidite": "48",
+        "Temperature": "8"
+    },
+    {
+        "humidite": "94",
+        "Temperature": "41"
+    },
+    {
+        "humidite": "96",
+        "Temperature": "31"
+    },
+    {
+        "humidite": "45",
+        "Temperature": "-20"
+    },
+    {
+        "humidite": "34",
+        "Temperature": "71"
+    },
+    {
+        "humidite": "135",
+        "Temperature": "8"
+    },
+    {
+        "humidite": "155",
+        "Temperature": "37"
+    },
+    {
+        "humidite": "51",
+        "Temperature": "-20"
+    },
+    {
+        "humidite": "30",
+        "Temperature": "-10"
+    },
+    {
+        "humidite": "53",
+        "Temperature": "-13"
+    },
+    {
+        "humidite": "53",
+        "Temperature": "-19"
+    },
+    {
+        "humidite": "17",
+        "Temperature": "15"
+    },
+    {
+        "humidite": "94",
+        "Temperature": "18"
+    },
+    {
+        "humidite": "170",
+        "Temperature": "-14"
+    },
+    {
+        "humidite": "24",
+        "Temperature": "0"
+    },
+    {
+        "humidite": "56",
+        "Temperature": "59"
+    },
+    {
+        "humidite": "83",
+        "Temperature": "35"
+    },
+    {
+        "humidite": "41",
+        "Temperature": "-20"
+    },
+    {
+        "humidite": "186",
+        "Temperature": "35"
+    },
+    {
+        "humidite": "183",
+        "Temperature": "30"
+    },
+    {
+        "humidite": "153",
+        "Temperature": "26"
+    },
+    {
+        "humidite": "61",
+        "Temperature": "62"
+    },
+    {
+        "humidite": "155",
+        "Temperature": "52"
+    },
+    {
+        "humidite": "164",
+        "Temperature": "-1"
+    },
+    {
+        "humidite": "169",
+        "Temperature": "61"
+    },
+    {
+        "humidite": "29",
+        "Temperature": "65"
+    },
+    {
+        "humidite": "153",
+        "Temperature": "-16"
+    },
+    {
+        "humidite": "167",
+        "Temperature": "10"
+    },
+    {
+        "humidite": "32",
+        "Temperature": "2"
+    },
+    {
+        "humidite": "195",
+        "Temperature": "75"
+    },
+    {
+        "humidite": "101",
+        "Temperature": "72"
+    },
+    {
+        "humidite": "200",
+        "Temperature": "-16"
+    },
+    {
+        "humidite": "10",
+        "Temperature": "-12"
+    },
+    {
+        "humidite": "174",
+        "Temperature": "73"
+    },
+    {
+        "humidite": "93",
+        "Temperature": "25"
+    },
+    {
+        "humidite": "184",
+        "Temperature": "57"
+    },
+    {
+        "humidite": "17",
+        "Temperature": "11"
+    },
+    {
+        "humidite": "100",
+        "Temperature": "45"
+    },
+    {
+        "humidite": "115",
+        "Temperature": "-6"
+    },
+    {
+        "humidite": "13",
+        "Temperature": "53"
+    },
+    {
+        "humidite": "15",
+        "Temperature": "32"
+    },
+    {
+        "humidite": "44",
+        "Temperature": "25"
+    },
+    {
+        "humidite": "31",
+        "Temperature": "30"
+    },
+    {
+        "humidite": "15",
+        "Temperature": "39"
+    },
+    {
+        "humidite": "65",
+        "Temperature": "39"
+    },
+    {
+        "humidite": "70",
+        "Temperature": "-17"
+    },
+    {
+        "humidite": "51",
+        "Temperature": "-18"
+    },
+    {
+        "humidite": "189",
+        "Temperature": "59"
+    },
+    {
+        "humidite": "76",
+        "Temperature": "80"
+    },
+    {
+        "humidite": "165",
+        "Temperature": "5"
+    },
+    {
+        "humidite": "186",
+        "Temperature": "78"
+    },
+    {
+        "humidite": "150",
+        "Temperature": "-13"
+    },
+    {
+        "humidite": "185",
+        "Temperature": "4"
+    },
+    {
+        "humidite": "47",
+        "Temperature": "-9"
+    },
+    {
+        "humidite": "75",
+        "Temperature": "52"
+    },
+    {
+        "humidite": "12",
+        "Temperature": "38"
+    },
+    {
+        "humidite": "198",
+        "Temperature": "11"
+    },
+    {
+        "humidite": "99",
+        "Temperature": "58"
+    },
+    {
+        "humidite": "147",
+        "Temperature": "69"
+    },
+    {
+        "humidite": "88",
+        "Temperature": "-8"
+    },
+    {
+        "humidite": "110",
+        "Temperature": "72"
+    },
+    {
+        "humidite": "71",
+        "Temperature": "66"
+    },
+    {
+        "humidite": "156",
+        "Temperature": "52"
+    },
+    {
+        "humidite": "188",
+        "Temperature": "19"
+    },
+    {
+        "humidite": "139",
+        "Temperature": "10"
+    },
+    {
+        "humidite": "48",
+        "Temperature": "8"
+    },
+    {
+        "humidite": "75",
+        "Temperature": "62"
+    },
+    {
+        "humidite": "19",
+        "Temperature": "-16"
+    },
+    {
+        "humidite": "160",
+        "Temperature": "-10"
+    },
+    {
+        "humidite": "46",
+        "Temperature": "2"
+    },
+    {
+        "humidite": "191",
+        "Temperature": "-14"
+    },
+    {
+        "humidite": "139",
+        "Temperature": "71"
+    },
+    {
+        "humidite": "150",
+        "Temperature": "-17"
+    },
+    {
+        "humidite": "76",
+        "Temperature": "-4"
+    },
+    {
+        "humidite": "25",
+        "Temperature": "12"
+    },
+    {
+        "humidite": "128",
+        "Temperature": "18"
+    },
+    {
+        "humidite": "175",
+        "Temperature": "61"
+    },
+    {
+        "humidite": "124",
+        "Temperature": "76"
+    },
+    {
+        "humidite": "187",
+        "Temperature": "9"
+    },
+    {
+        "humidite": "66",
+        "Temperature": "71"
+    },
+    {
+        "humidite": "165",
+        "Temperature": "80"
+    },
+    {
+        "humidite": "130",
+        "Temperature": "-18"
+    },
+    {
+        "humidite": "110",
+        "Temperature": "24"
+    },
+    {
+        "humidite": "119",
+        "Temperature": "6"
+    },
+    {
+        "humidite": "97",
+        "Temperature": "61"
+    },
+    {
+        "humidite": "93",
+        "Temperature": "-2"
+    },
+    {
+        "humidite": "25",
+        "Temperature": "56"
+    },
+    {
+        "humidite": "88",
+        "Temperature": "59"
+    },
+    {
+        "humidite": "86",
+        "Temperature": "75"
+    },
+    {
+        "humidite": "132",
+        "Temperature": "45"
+    },
+    {
+        "humidite": "106",
+        "Temperature": "-17"
+    },
+    {
+        "humidite": "14",
+        "Temperature": "28"
+    }
+]

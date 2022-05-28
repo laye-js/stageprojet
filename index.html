@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            background: radial-gradient(#79a9e7, #4571e9);
+
+        }
+        img {
+            width: 100%;
+        }
+
+        .login {
+            height: 1100px;
+            width: 100%;
+            background: radial-gradient(#79a9e7, #4571e9);
+            position: relative;
+        }
+
+        .login_box {
+            width: 1050px;
+            height: 600px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 1px 4px 22px -8px #0004;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .login_box .left {
+            width: 41%;
+            height: 100%;
+            padding: 25px 25px;
+
+        }
+
+        .login_box .right {
+            width: 59%;
+            height: 100%
+        }
+
+        .left .top_link a {
+            color: #452A5A;
+            font-weight: 400;
+        }
+
+        .left .top_link {
+            height: 20px
+        }
+
+        .left .contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-self: center;
+            height: 100%;
+            width: 73%;
+            margin: auto;
+        }
+
+        .left h3 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .left input {
+            border: none;
+            width: 80%;
+            margin: 15px 0px;
+            border-bottom: 1px solid #1584df7d;
+            padding: 7px 9px;
+            width: 100%;
+            overflow: hidden;
+            background: transparent;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .left {
+            background: linear-gradient(-45deg, #dcd7e0, #fff);
+        }
+
+        .submit {
+            cursor:pointer;
+            border: none;
+            padding: 15px 70px;
+            border-radius: 8px;
+            display: block;
+            margin: auto;
+            margin-top: 120px;
+            background: #583672;
+            color: #fff;
+            font-weight: bold;
+            -webkit-box-shadow: 0px 9px 15px -11px rgba(9, 85, 224,1);
+            -moz-box-shadow: 0px 9px 15px -11px rgba(9, 85, 224,1);
+            box-shadow: 0px 9px 15px -11px rgba(9, 85, 224,1);
+        }
+        .submit input{
+            cursor: pointer;
+            font-size: 35px;
+        }
+
+
+
+        .right {
+            background: linear-gradient(212.38deg, rgba(242, 57, 127, 0.7) 0%, rgba(25, 97, 214, 0.71) 100%), url(https://media.istockphoto.com/photos/golden-wheat-field-and-sunny-day-picture-id508908231?k=20&m=508908231&s=612x612&w=0&h=KGOizbhNFa9-aBKixPkgTmaDZFKWlrNFpQz1G7rruOY=) no-repeat center;
+            color: #fff;
+            position: relative;
+        }
+
+        .right .right-text {
+            height: 100%;
+            position: relative;
+            transform: translate(0%, 45%);
+        }
+
+        .right-text h2 {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 50px;
+            font-weight: 600;
+        }
+
+        .right-text h3 {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 19px;
+            font-weight: bold;
+            font-weight: 900;
+        }
+
+        .right .right-inductor {
+            position: absolute;
+            width: 70px;
+            height: 7px;
+            background: #fff0;
+            left: 50%;
+            bottom: 70px;
+            transform: translate(-50%, 0%);
+        }
+
+        .top_link img {
+            width: 28px;
+            padding-right: 7px;
+            margin-top: -3px;
+        }
+    </style>
+    <title>Bienvenue</title>
+</head>
+
+<body>
+
+    <body>
+        <section class="login">
+            <div class="login_box">
+                <div class="left">
+                    <div class="contact">
+                        <form action="/" method="POST">
+                            <h3>S'AUTHENTIFIER</h3>
+                            {%if(errormessage=="yes"):%}
+                            <h4 style="color:red">Login ou email invalide!</h4>
+                            {%endif%}
+                            <input required=required type="text" name="user" placeholder="Login">
+                            <input required=required type="email" name="email"  placeholder="EMAIL GMAIL">
+                            <button class="submit"><input type="submit" value="S'AUTHENTIFIER"></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right-text">
+                        <h2>Agr-e-cola</h2>
+                        <h3>AUTHENTIFIEZ VOUS AVEC VOTRE ADRESSE GMAIL <br/> POUR ETRE ALERTER EN TEMPS REEL</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
+</body>
+
+</html>
